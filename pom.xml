@@ -75,6 +75,12 @@
 
 
 		</plugins>
+<properties>
+    <sonar.host.url>http://3.101.82.98:9000/</sonar.host.url>
+    <sonar.log.level>DEBUG</sonar.log.level>
+    <sonar.verbose>true</sonar.verbose>
+    <sonar.coverage.exclusions>**/*.js</sonar.coverage.exclusions>
+</properties>
 	</build>
 
 </project>
